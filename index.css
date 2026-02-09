@@ -1,0 +1,4104 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.piropo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  height: 700px;
+  margin-top: 180px;
+}
+
+.sobre-nos {
+  text-align: center;
+  font-size: 35px;
+  color: #008c71;
+}
+
+.sobre {
+  background-color: whitesmoke;
+  width: 48%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.sobre p {
+  font-size: 22px;
+  border-radius: 20px;
+  color: #54351e;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  padding: 20px;
+  margin-top: 10px;
+  width: 63%;
+}
+
+.sobre img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+}
+
+.fundadores {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 51%;
+  height: 100%;
+}
+
+.fundadores img {
+  width: 240px;
+  height: 240px;
+  border-radius: 20%;
+  margin-top: 20px;
+}
+
+.fundadores p {
+  font-size: 22px;
+  color: #54351e;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  background-color: whitesmoke;
+}
+
+.fundadores h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #008c71;
+  margin-top: 52px;
+}
+
+.box {
+  background: #fff;
+  color: #232323;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px;
+  flex: 1;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.plans h3 {
+  background: #008c71;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* SOBRE */
+.sobre {
+  padding: 60px 20px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0 auto;
+}
+
+/* PLANOS*
+
+*/
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin-left: 130px;
+}
+
+.logos img {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: whitesmoke;
+  border-radius: 40px;
+}
+
+.logos img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.foto img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.btn {
+  background-color: #008c71;
+  border: none;
+  color: black;
+  border-radius: 50px;
+  margin-top: 10px;
+  color: white;
+}
+
+.button {
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.escrita-planos img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.escrita-planos ul {
+  list-style: none;
+  margin-bottom: 20px;
+  width: 100%;
+  align-items: center;
+  text-align: left;
+  color: #54351e;
+}
+
+/* === SEU CSS ORIGINAL AQUI (sem alterações) === */
+
+/* ======================= */
+/* RESPONSIVIDADE ADICIONADA */
+/* ======================= */
+
+/* resolução maior que 1000px */
+
+.navbar {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1500px) and (orientation: landscape) {
+  #titulo-logos {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+    margin-top: 120px;
+  }
+
+  .logos {
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    align-content: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .logos img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #feed {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: #008c71;
+  }
+
+  #feedbacks {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 150px;
+    color: #008c71;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .carousel h3 {
+    font-size: 28px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #232323;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    height: 250px;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+
+  /*footer/ rodapé */
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .piropo-plano h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .insta-piropo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 80px;
+  }
+
+  .piropo-plano p {
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+
+  .foto-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    align-items: flex-start;
+  }
+
+  .links {
+    color: whitesmoke;
+    width: 25%;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+
+  .contato {
+    text-align: center;
+    color: whitesmoke;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .contato p {
+    margin-left: 5px;
+    font-size: 18px;
+    color: whitesmoke;
+  }
+
+  .contato img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .telefone,
+  .email,
+  .telefone2,
+  .horarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .direitos p {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    color: #008c71;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 22px;
+    margin-top: 50px;
+  }
+
+  .navbar {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+  }
+
+  #nome-empresa {
+    font-size: 40px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    width: 100px;
+    border-radius: 60px;
+    width: 100px;
+  }
+
+  .capa {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 620px;
+    background-image: url(img/capa-menor.jpg);
+    background-size: cover;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .capa img {
+    width: 100%;
+    height: 620px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planos-capa {
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #54351e 2px 2px 4px;
+    font-size: 45px;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 10px;
+    border: none;
+    width: 250px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .planos-capa p {
+    color: white;
+    text-shadow: #54351e 2px 2px 4px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: #008c71;
+  }
+
+  .planos-capas:hover {
+    color: #ffffff;
+  }
+
+
+
+  .container-fluid {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    height: 120px;
+  }
+
+  .plans {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+    .foto {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  #seguro-foto {
+    margin: 0 auto;
+  }
+
+  #familia-foto {
+    margin: 0 auto;
+  }
+
+  #companhia-foto {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1040px) and (max-width: 1490px) {
+  #titulo-logos {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+    margin-top: 120px;
+  }
+
+  .logos {
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    gap: 40px;
+    margin-top: 10px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .logos img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .foto img {
+    margin: 0 auto;
+  }
+
+  #feed {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: #008c71;
+  }
+
+  #feedbacks {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 150px;
+    color: #008c71;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .carousel h3 {
+    font-size: 28px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #232323;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 60%;
+    margin: 0 auto;
+    height: 250px;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  footer {
+    margin-top: 150px;
+    height: 450px;
+  }
+
+  /*footer/ rodapé */
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+
+  .piropo-plano h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .insta-piropo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .piropo-plano p {
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+  }
+
+  .foto-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    align-items: flex-start;
+  }
+
+  .links {
+    color: whitesmoke;
+    width: 35%;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 28px;
+  }
+
+  .contato {
+    text-align: center;
+    color: whitesmoke;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .contato h1 {
+    margin-left: 90px;
+  }
+
+  .tel2 {
+    margin-left: 25px;
+  }
+
+  .contato p {
+    margin-left: 5px;
+    font-size: 18px;
+    color: whitesmoke;
+  }
+
+  .contato img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+  }
+
+  .telefone,
+  .telefone2,
+  .email,
+  .horarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .direitos p {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    color: #008c71;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 22px;
+    margin-top: 50px;
+  }
+
+  .navbar {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+  }
+
+  #nome-empresa {
+    font-size: 40px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    border-radius: 60px;
+    width: 80px;
+  }
+
+  .capa {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100% !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 620px;
+    background-image: url(img/capa-menor.jpg);
+    background-size: cover;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .capa img {
+    width: 100%;
+    height: 620px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .planos-capa {
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #54351e 2px 2px 4px;
+    font-size: 45px;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 10px;
+    border: none;
+    width: 250px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .planos-capa p {
+    color: white;
+    text-shadow: #54351e 2px 2px 4px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: #008c71;
+  }
+
+  .planos-capas:hover {
+    color: #ffffff;
+  }
+
+  .container-fluid {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    height: 120px;
+  }
+
+  .plans {
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .box {
+    width: 40%;
+  }
+
+  .foto {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  #seguro-foto {
+    margin: 0 auto;
+  }
+
+  #familia-foto {
+    margin: 0 auto;
+  }
+  #companhia-foto {
+    margin: 0 auto;
+  }
+
+  .sobre p {
+    width: 100%;
+  }
+
+  .fundadores p {
+    width: 100%;
+  }
+
+  .sobre img {
+    width: 185px;
+    height: 185px;
+  }
+}
+
+@media (min-width: 910px) and (max-width: 1025px) {
+  .beneficios-pp {
+    gap: 60px;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 0 auto;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    border-radius: 60px;
+    width: 80px;
+  }
+
+  #nome-empresa {
+    font-size: 30px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+
+  #titulo-logos {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #008c71;
+  }
+
+  .capa {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/capa-maior.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 550px;
+    margin-left: 5px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .planos-capa {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-10%, -10%);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #54351e 2px 2px 4px;
+    font-size: 40px;
+  }
+
+  .planos-capa p {
+    color: white;
+    text-shadow: #54351e 2px 2px 4px;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: 600;
+    padding: 10px 5px;
+    border: none;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: #008c71;
+  }
+
+  .planos-capas:hover {
+    text-decoration: none;
+  }
+
+
+  /*links topo da tela*/
+  #logo-nav {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  #logo-btn {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .navbar-toggler {
+    margin-top: 40px;
+    margin-right: 20px;
+  }
+
+  .navbar-toggler img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .collapse a {
+    color: #008c71;
+    margin-top: 20px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /*logo operadoras*/
+  .logos {
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-top: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 150px;
+  }
+
+  .piropo {
+    height: 850px;
+    margin-top: 150px;
+    gap: 30px;
+    margin: 0 auto;
+  }
+
+  .sobre {
+    width: 50%;
+    height: 100%;
+  }
+
+  .sobre p {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .fundadores {
+    width: 50%;
+    height: 100%;
+  }
+
+  .fundadores p {
+    font-size: 40px;
+    width: 10%;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .piropo img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .piropo p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .logos img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+    width: 90%;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 150px;
+  }
+
+  .plans {
+    margin-top: 150px;
+  }
+
+  .foto img {
+    margin-left: 155px;
+  }
+
+  #feed {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    color: #008c71;
+  }
+
+  #feedbacks {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    color: #008c71;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .carousel h3 {
+    font-size: 28px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #232323;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  footer {
+    height: 1000px;
+    margin-top: 120px;
+  }
+
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    width: 100% !important;
+    height: 1250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .piropo-plano h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 12px;
+  }
+  .foto-ig {
+    margin-left: 15px;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    margin-top: -11px;
+  }
+
+  .insta-piropo {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 24px;
+    margin-bottom: 28px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .foto-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    align-items: flex-start;
+  }
+
+  .links {
+    color: whitesmoke;
+    width: 95%;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 28px;
+    border-top: 1px solid whitesmoke;
+    margin: 0 auto;
+  }
+
+  .contato {
+    color: whitesmoke;
+    width: 95%;
+    text-align: center;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    margin-bottom: 28px;
+    margin-top: 15px;
+    border-top: 1px solid whitesmoke;
+    margin: 0 auto;
+  }
+
+  .contato p {
+    font-size: 28px;
+    color: whitesmoke;
+  }
+
+  .contato img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .telefone,
+  .email,
+  .horarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 95%;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .container-fluid {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    height: 120px;
+    margin: 0 auto;
+  }
+
+  .tel1 {
+    margin: 7px 10px 0px;
+  }
+
+  .tel2 {
+    margin: 7px 10px 0px;
+  }
+
+  .em1 {
+    margin: 10px 10px 0px;
+  }
+
+  .em2 {
+    margin: 10px 10px 0px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #nome-empresa {
+    font-size: 30px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    border-radius: 60px;
+    width: 80px;
+  }
+
+  #titulo-logos {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-top: 120px;
+    color: #008c71;
+  }
+
+  .navbar-toggler {
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+
+  .navbar-toggler img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .capa {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/capa-maior.jpg);
+    background-size: 100%, 100%;
+    margin: 0 auto;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    padding: 0px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .planos-capas:hover {
+    text-decoration: none;
+  }
+
+  .plans {
+    display: flex;
+    margin-top: -45px;
+  }
+
+  .planos-capa {
+    position: absolute;
+    left: 65%;
+    margin-top: 200px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-50%, -50%);
+    width: 50% !important;
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #232323 2px 2px 4px;
+    font-size: 35px;
+  }
+
+  .planos-capa p {
+    color: white;
+    text-shadow: #232323 2px 2px 4px;
+    font-size: 25px;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 5px;
+    text-shadow: #232323 2px 2px 4px;
+    border: none;
+    width: 280px;
+    height: 80px;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: #008c71;
+    text-shadow: none;
+  }
+
+  .planos-capas:hover {
+    color: #008c71;
+  }
+
+
+  .btn:hover {
+    color: black;
+  }
+
+  #comunica {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  /* SOBRE e FUNDADORES em coluna */
+  .piropo {
+    flex-direction: column;
+    height: auto;
+    padding: 80px;
+  }
+
+  .sobre,
+  .fundadores {
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+
+  .sobre p,
+  .fundadores p {
+    width: 90%;
+    font-size: 30px;
+  }
+
+  /* Logos menores */
+  .logos {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .logos img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+  }
+
+  .navegacao img {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+  }
+
+  /*links topo da tela*/
+  #logo-nav {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  #logo-btn {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .navbar-toggler img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .collapse a {
+    color: #008c71;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Planos empilhados */
+  .plans {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 20;
+  }
+
+  .box {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    margin-top: 100px;
+  }
+
+  .beneficios-pp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 100px;
+  }
+
+  #seguro-foto {
+    margin-left: 0px;
+  }
+
+  #familia-foto {
+    margin-left: 0px;
+  }
+
+  #companhia-foto {
+    margin-left: 0px;
+  }
+
+  .foto {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+  }
+
+  .tel1 {
+    margin: 5px 15px 0px 0px;
+  }
+
+  .tel2 {
+    margin: 5px 15px;
+  }
+
+  .precos,
+  .atendimento,
+  .redes,
+  .protecao {
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #54351e;
+    font-size: 18px;
+  }
+
+  #feed {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: #008c71;
+  }
+
+  #feedbacks {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    color: #008c71;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .carousel h3 {
+    font-size: 25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #232323;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    height: 250px;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  footer {
+    height: 1150px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    height: 100%;
+    width: 100% !important;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .piropo-plano h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .foto-face {
+    display: flex;
+  }
+
+  .insta-piropo {
+    text-align: center;
+    color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: space-around;
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 28px;
+  }
+
+  .piropo-plano p {
+    font-size: 25px;
+    color: whitesmoke;
+  }
+
+  .foto-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    align-items: flex-start;
+  }
+
+  .foto img {
+    margin: 0 auto;
+  }
+
+  .links {
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 28px;
+  }
+
+  .contato {
+    text-align: center;
+    color: whitesmoke;
+    width: 50%;
+    text-align: center;
+    align-items: stretch;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-bottom: 28px;
+  }
+
+  .contato p {
+    font-size: 25px;
+    color: whitesmoke;
+  }
+
+  .contato img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .telefone,
+  .email,
+  .telefone2,
+  .horarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    font-weight: 400;
+    margin-top: 25px;
+    align-content: space-around;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 541px) and (max-width: 690px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #piropo {
+    width: 100% !important;
+    /* ocupa toda a tela */
+    margin: 0 auto !important;
+    /* centraliza */
+  }
+
+  .piropo p {
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .tel1 {
+    margin: 5px 15px 0px 0px;
+  }
+
+  .tel2 {
+    margin: 5px 15px;
+  }
+
+  .fundadores img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .logos {
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .foto img {
+    margin-left: 65px;
+  }
+
+  #nome-empresa {
+    font-size: 30px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    border-radius: 60px;
+    width: 80px;
+  }
+
+  #titulo-logos {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 15px;
+    color: #008c71;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .beneficios-pp {
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .capa {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/capa-maior.jpg);
+    background-size: 540px 400px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .planos-capas:hover {
+    text-decoration: none;
+  }
+
+  .planos-capa {
+    position: relative;
+    margin-top: 120px;
+    left: 48%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-50%, -50%);
+    width: 60% !important;
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #232323 2px 2px 4px;
+    font-size: 20px;
+  }
+
+  .planos-capa p {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: #008c71;
+    text-shadow: none;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    color: #008c71;
+    font-weight: 600;
+    padding: 10px 5px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+
+
+  /*links topo da tela*/
+  #logo-nav {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  #logo-btn {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .navbar-toggler img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .collapse a {
+    color: #008c71;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .sobre,
+  .fundadores {
+    width: 100%;
+  }
+
+  .piropo {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  #protec {
+    width: 180px;
+    height: 180px;
+  }
+
+  #comunica {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  /* Texto menor */
+  .sobre p,
+  .fundadores p {
+    font-size: 22px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Logos ainda menores */
+  .logos img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .logos {
+    width: 100%;
+    margin: 0 auto;
+
+    /* Box planos largura total */
+  }
+
+  #feed {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #008c71;
+  }
+
+  #feedbacks {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+    margin: 0 auto;
+  }
+
+  #porque-usar {
+    font-size: 30px;
+    margin: 0 auto;
+    color: #008c71;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin-left: 215px;
+  }
+
+  .carousel h3 {
+    font-size: 25px;
+    margin-left: 165px;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 80%;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #232323;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 95%;
+    margin: 0 auto;
+    height: 250px;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    height: 1000px;
+    width: 100% !important;
+    margin: 0 auto;
+    display: flex;
+    height: 1080px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 1250px;
+    width: 100%;
+  }
+
+  .piropo-plano h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+  }
+
+  .insta-piropo {
+    text-align: center;
+    color: whitesmoke;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .foto-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .piropo-plano p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    font-size: 20px;
+  }
+
+  .links {
+    text-align: center;
+    color: whitesmoke;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .contato {
+    text-align: center;
+    color: whitesmoke;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .contato p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .contato img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    margin-top: -11px;
+  }
+
+  .telefone,
+  .email,
+  .horarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    font-weight: 400;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 17px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .navegacao img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-toggler img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-toggler {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 460px) and (max-width: 530px) {
+  /* HERO */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #piropo {
+    width: 100% !important;
+    /* ocupa toda a tela */
+    margin: 0 auto !important;
+    /* centraliza */
+  }
+
+  .piropo p {
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fundadores img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .logos {
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .foto img {
+    margin-left: 130px;
+  }
+
+  #nome-empresa {
+    font-size: 30px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 25px;
+  }
+
+  #titulo-logos {
+    text-align: center;
+    font-size: 35px;
+    margin-left: 15px;
+    color: #008c71;
+  }
+
+  .beneficios-pp {
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    border-radius: 60px;
+    width: 80px;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .capa {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/capa-maior.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    background-position: scroll;
+    height: 300px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .planos-capas:hover {
+    text-decoration: none;
+  }
+
+  .planos-capa {
+    position: relative;
+    margin-top: 150px;
+    left: 48%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-50%, -50%);
+    width: 60% !important;
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #232323 2px 2px 4px;
+    font-size: 20px;
+  }
+
+  .planos-capa p {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: #008c71;
+    text-shadow: none;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    color: #008c71;
+    font-weight: 600;
+    padding: 10px 5px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+
+  /*links topo da tela*/
+  #logo-nav {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  #logo-btn {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .navbar-toggler img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .collapse a {
+    color: #008c71;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .sobre,
+  .fundadores {
+    width: 100%;
+  }
+
+  .piropo {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  #protec {
+    width: 180px;
+    height: 180px;
+  }
+
+  #comunica {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  /* Texto menor */
+  .sobre p,
+  .fundadores p {
+    font-size: 22px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Logos ainda menores */
+  .logos img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .logos {
+    width: 100%;
+    margin: 0 auto;
+
+    /* Box planos largura total */
+  }
+
+  #feed {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    color: #008c71;
+  }
+
+  .box {
+    margin-bottom: -50px;
+  }
+
+  #feedbacks {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+    margin: 0 auto;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin-left: 160px;
+  }
+
+  .carousel h3 {
+    font-size: 25px;
+    margin-left: 120px;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 80%;
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #232323;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 95%;
+    margin: 0 auto;
+    height: 250px;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  #feed {
+    font-size: 28px;
+    margin-bottom: 80px;
+  }
+
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    height: 1000px;
+    width: 100% !important;
+    margin: 0 auto;
+    display: flex;
+    height: 1080px;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .tel1 {
+    margin: 5px 15px 0px 0px;
+  }
+
+  .tel2 {
+    margin: 5px 15px;
+  }
+
+  .piropo-plano h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 25px;
+    height: 25px;
+    align-items: center;
+  }
+
+  .insta-piropo {
+    text-align: center;
+    color: whitesmoke;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .foto-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+  }
+
+  .piropo-plano p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    font-size: 20px;
+  }
+
+  .links {
+    text-align: center;
+    color: whitesmoke;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .contato {
+    text-align: center;
+    color: whitesmoke;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .contato h1 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .contato p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .contato img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-toggler img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    margin-top: -11px;
+  }
+
+  .telefone,
+  .email,
+  .horarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .email {
+    margin-top: -20px;
+  }
+
+  .foto img {
+    margin-left: 50px;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    font-weight: 400;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 17px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+
+  #feedbacks {
+    text-align: center;
+    font-size: 30px;
+    color: #008c71;
+    margin: 0 auto;
+  }
+
+  .navegacao img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 402px) and (max-width: 445px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #piropo {
+    width: 100% !important;
+    /* ocupa toda a tela */
+    margin: 0 auto !important;
+    /* centraliza */
+  }
+
+  .piropo p {
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fundadores img {
+    width: 250px;
+    height: 250px;
+  }
+
+  #feedbacks {
+    color: #008c71;
+    margin-top: 1200px;
+    text-align: center;
+  }
+
+  .piropo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    height: 700px;
+    margin-top: 180px;
+    flex-wrap: wrap;
+  }
+
+  .sobre-nos {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+  }
+
+  .sobre {
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+
+  .sobre p {
+    font-size: 22px;
+    border-radius: 20px;
+    color: #54351e;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    padding: 20px;
+    margin-top: 10px;
+    width: 63%;
+  }
+
+  .sobre img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin: 0 auto;
+  }
+
+  .fundadores {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fundadores img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+
+  .fundadores p {
+    font-size: 22px;
+    color: #54351e;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    background-color: whitesmoke;
+  }
+
+  .fundadores h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+    margin-top: 52px;
+  }
+
+  .sobre {
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 880px;
+  }
+
+  .sobre p {
+    width: 100%;
+  }
+
+  .fundadores p {
+    width: 100%;
+  }
+
+  .logos {
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logos img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+    gap: 650;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin-left: 160px;
+  }
+
+  .carousel h3 {
+    font-size: 25px;
+    margin-left: 115px;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #232323;
+    margin: 0 auto;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  #feed {
+    margin-bottom: 100px;
+  }
+
+  #titulo-logos {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    color: #008c71;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .foto img {
+    margin: 0 auto;
+  }
+
+  #seguro-foto {
+    margin-left: 125px;
+  }
+
+  #familia-foto {
+    margin-left: 125px;
+  }
+  #companhia-foto {
+    margin-left: 125px;
+  }
+
+  .capa {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/capa-maior.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100% !important;
+    height: 320px;
+    margin: 0 auto;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    border-radius: 60px;
+    width: 80px;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    margin-top: -11px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .planos-capas:hover {
+    text-decoration: none;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .planos-capa {
+    position: relative;
+    left: 50%;
+    width: 65%;
+    margin-top: 120px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-50%, -50%);
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #232323 2px 2px 4px;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+
+  .planos-capa p {
+    color: white;
+    text-shadow: #232323 2px 2px 4px;
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    color: #008c71;
+    font-weight: 600;
+    padding: 10px 5px;
+    border: none;
+    width: 150px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: #008c71;
+    text-shadow: none;
+  }
+
+  .planos-capas a:hover {
+    text-decoration: none;
+  }
+
+  .navbar-nav {
+    background-color: white;
+  }
+
+
+  /*links topo da tela*/
+  #logo-nav {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  #logo-btn {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .navbar-toggler img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #nome-empresa {
+    font-size: 30px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+
+  .navbar-toggler {
+    margin-bottom: 0px;
+    margin-top: 40px;
+  }
+
+  .collapse a {
+    color: #008c71;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .plans {
+    padding: 0 auto;
+    flex-direction: column;
+  }
+
+  #feed {
+    font-size: 25px;
+    color: #008c71;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  footer {
+    height: 1250px;
+    margin-top: 150px;
+  }
+
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    width: 100% !important;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .piropo-plano h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+  }
+
+  .insta-piropo {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .foto-ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .insta-piropo h1 {
+    margin-left: 110px;
+    margin-bottom: 40px;
+  }
+
+  .piropo-plano p {
+    font-size: 25px;
+    color: whitesmoke;
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+
+  .links {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .links h1 {
+    margin-left: 75px;
+  }
+  .contato h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .contato {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+
+  .contato h1 {
+    margin-left: 120px;
+  }
+
+  .contato p {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+
+  .contato img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .tel1 {
+    margin: 20px 0px 0px;
+  }
+
+  .tel2 {
+    margin: 20px 10px 0px;
+  }
+
+  .em1 {
+    margin: 20px 0px 0px;
+  }
+
+  .em2 {
+    margin: 20px 0px 0px;
+  }
+
+  .email,
+  .horarios,
+  .foto-ig,
+  .telefone,
+  .telefone2,
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .contato img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    font-weight: 400;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    height: 200px;
+    flex-wrap: wrap;
+  }
+
+  .direitos p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 345px) and (max-width: 395px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .foto {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #seguro-foto {
+    margin: 0 auto;
+  }
+
+  #familia-foto {
+    margin: 0 auto;
+  }
+  #companhia-foto {
+    margin: 0 auto;
+  }
+
+  .nav-link:hover {
+    background-color: #005f4e;
+    color: white;
+    border-radius: 60px;
+    width: 80px;
+  }
+
+  #piropo {
+    width: 100% !important;
+    /* ocupa toda a tela */
+    margin: 0 auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1850px;
+    /* centraliza */
+  }
+
+  .piropo p {
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fundadores img {
+    width: 250px;
+    height: 250px;
+    gap: 0;
+  }
+
+  .logos {
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logos img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .box {
+    margin: 0 auto;
+  }
+
+  .box {
+    width: 80%;
+  }
+
+  .foto img {
+    margin: 0 auto;
+  }
+
+  #seguro-foto {
+    margin: 0 auto;
+  }
+
+  #familia-foto {
+    margin: 0 auto;
+  }
+  #companhia-foto {
+    margin: 0 auto;
+  }
+
+  .plans {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #titulo-logos {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    color: #008c71;
+  }
+
+  .capa {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/capa-maior.jpg);
+    background-size: cover;
+    background-size: 100% 95%;
+    height: 320px;
+    margin: 0 auto;
+  }
+
+  .planos-capa {
+    position: relative;
+    left: 45%;
+    top: 20%;
+    width: 55%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-50%, -50%);
+  }
+
+  .planos-capa h1 {
+    color: white;
+    text-shadow: #232323 2px 2px 4px;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+
+  .planos-capa a {
+    color: #008c71;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .planos-capa button {
+    background-color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 10px 5px;
+    border: none;
+    width: 150px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .planos-capa p {
+    text-decoration: none;
+    color: white;
+    text-shadow: none;
+    font-size: 13px;
+    text-shadow: #232323 2px 2px 4px;
+    margin: 0 auto;
+  }
+
+  .planos-capas a:hover {
+    text-decoration: none;
+    color: #54351e;
+  }
+
+  .carrossel-img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .carousel h3 {
+    font-size: 25px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    color: #005f4e;
+  }
+
+  .carousel p {
+    font-size: 18px;
+    width: 70%;
+    color: #232323;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .carousel-item {
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .carousel-control-prev-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-esquerda.png") !important;
+  }
+
+  .carousel-control-next-icon {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-top: 80px;
+    background-image: url("img/seta-para-a-direita.png") !important;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    margin-top: -11px;
+  }
+
+  .planos-capas {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .planos-capas:hover {
+    text-decoration: none;
+  }
+
+  .piropo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    width: 100%;
+    height: 700px;
+    margin-top: 180px;
+  }
+
+  .sobre-nos {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+  }
+
+  .sobre {
+    background-color: whitesmoke;
+    width: 48%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+  }
+
+  .sobre p {
+    font-size: 22px;
+    border-radius: 20px;
+    color: #54351e;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    padding: 20px;
+    margin-top: 10px;
+    width: 63%;
+  }
+
+  .sobre img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+  }
+
+  .fundadores {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fundadores img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20%;
+    margin-top: 20px;
+  }
+
+  .fundadores p {
+    font-size: 22px;
+    color: #54351e;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    background-color: whitesmoke;
+  }
+
+  .fundadores h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+    margin-top: 52px;
+  }
+
+  .box {
+    background: #fff;
+    color: #232323;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+  }
+
+  #feedbacks {
+    margin-top: 1250px;
+    text-align: center;
+    font-size: 35px;
+    color: #008c71;
+  }
+
+  .plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .plans h3 {
+    background: #008c71;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .foto {
+    margin: 0 auto;
+    margin-left: 50px;
+  }
+
+  /* SOBRE */
+  .sobre {
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 880px;
+  }
+
+  .sobre p {
+    width: 100%;
+  }
+
+  .fundadores p {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    background-color: white;
+  }
+
+  /*links topo da tela*/
+  #logo-nav {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+  }
+
+  #logo-btn {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .navbar-toggler img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #nome-empresa {
+    font-size: 20px;
+    color: #008c71;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .collapse a {
+    color: #008c71;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .plans {
+    padding: 0 auto;
+    flex-direction: column;
+  }
+
+  #feed {
+    font-size: 25px;
+    color: #005f4e;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 100px;
+    height: 1000px;
+  }
+
+  .piropo-plano {
+    background-color: #008c71;
+    text-align: center;
+    color: white;
+    width: 100% !important;
+    display: flex;
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .btn:hover {
+    color: black;
+  }
+
+  .piropo-plano h1 {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .insta-piropo img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .insta-piropo {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .insta-piropo h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .insta-piropo p {
+    font-size: 25px;
+    color: whitesmoke;
+    margin: 0 auto;
+  }
+
+  .foto-face img {
+    margin: 0 auto;
+  }
+
+  .foto-ig img {
+    margin: 0 auto;
+  }
+
+  .links a {
+    text-align: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+
+  .links {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .links h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .contato h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+    color: white;
+    font-weight: 600px;
+    text-align: center;
+  }
+
+  .contato {
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+
+  .contato p {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+
+  .contato img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .tel1 {
+    margin: 20px 0px 0px;
+  }
+
+  .tel2 {
+    margin: 20px 10px 0px;
+  }
+
+  .em1 {
+    margin: 20px 0px 0px;
+  }
+
+  .em2 {
+    margin: 20px 0px 0px;
+  }
+
+  .email,
+  .horarios,
+  .foto-ig,
+  .telefone,
+  .telefone2,
+  .foto-face {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .direitos {
+    border-top: 1px solid #ffffff;
+    width: 90%;
+    font-weight: 400;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    height: 200px;
+    flex-wrap: wrap;
+  }
+
+  .direitos p {
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .direitos h4 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 18px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.beneficios-pp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#porque {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 120px;
+  color: #008c71;
+}
+
+.precos img,
+.atendimento img,
+.redes img,
+.protecao img {
+  width: 65px;
+  height: 65x;
+  margin-bottom: 5px;
+  margin-top: 8px;
+}
+
+.precos h1,
+.atendimento h1,
+.redes h1,
+.protecao h1 {
+  font-size: 18px;
+  color: #008c71;
+}
+
+.precos,
+.atendimento,
+.redes,
+.protecao {
+  text-align: center;
+  margin-top: 60px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  color: #54351e;
+  font-size: 18px;
+}
+
+.precos:hover,
+.atendimento:hover,
+.redes:hover,
+.protecao:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
