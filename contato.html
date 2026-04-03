@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="contato.css">
+  <title>Piropo seguros</title>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <p id="nome-empresa">PIROPO SEGUROS</p>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="img/barras-horizontais.png" alt="btn"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a id="init" class="nav-link" href="./index.html">
+              Ínicio
+            </a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link" href="./#feedbacks">
+              Planos
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="./#piropo">
+              Sobre
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="./contato.html">
+              Contato
+            </a>
+        </ul>
+        </li>
+        </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br><br>
+
+
+
+
+
+  <div class="contate-nos">
+    <h1>Entre em contato</h1>
+    <p>Estamos aqui para ajudar você a encontrar o melhor plano de saúde</p>
+  </div><br><br>
+
+  <div class="meios-contato">
+    <div class="cards">
+      <div class="atendimento-telefone">
+        <img src="img/telefone-tocando.png" alt="contato"><br>
+        <h1>Telefone</h1><br>
+        <p>(11)96728-2343</p><br>
+        <p>(11)95859-4338</p>
+        <p id="horario-atend">Atendimento de Segunda à Sexta-feira das 8h as 18h</p>
+      </div>
+      <div class="contato-email">
+        <img src="img/o-email.png" alt="email"><br>
+        <h1>E-mail</h1><br>
+        <p>contatopiropoplanosdesaude@gmail.com</p><br>
+        <p id="horario-resposta">Resposta em até 24 horas</p>
+      </div>
+
+    </div>
+    <div class="formulario">
+      <h1>Envie sua Mensagem</h1><br>
+      <!--<form id="formulario-contato" action="https://formsubmit.co/contatopiropoplanosdesaude@gmail.com" method="POST">-->
+        <form id="formulario-contato" method="POST" action="email.php">
+        <p>Nome completo</p>
+        <input type="text" name="nome" required><br>
+        <p>E-mail</p>
+        <input type="email" name="email" required><br>
+        <p>Telefone</p>
+        <input type="tel" name="telefone" maxlength="11" placeholder="(xx)xxxx-xxxx"><br>
+        <p>Assunto</p>
+        <input type="text" name="assunto" id="assunto" placeholder="Digite aqui" required><br>
+        <p>Mensagem</p>
+        <textarea name="mensagem" id="text" placeholder="Digite aqui"></textarea>
+        <button type="submit">Enviar Mensagem</button>
+
+      </form>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="piropo-plano">
+      <div class="insta-piropo">
+        <h1>Piropo Planos de saúde</h1><br>
+        <p>Você sempre seguro</p>
+        <div class="foto-ig">
+          <a href="https://www.instagram.com/piroposeguros?igsh=OW9odzhzODZ2NTBt"><img src="img/instagram.png"
+              alt="insta"></a>
+          <p>@piroposeguros</p>
+        </div>
+        <div class="foto-face">
+          <a
+            href="https://www.facebook.com/people/Piropo-Seguros/61578066759976/?mibextid=wwXIfr&rdid=hxHcKRM77lfY7xKv&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1Ev4otv2Fx%2F%3Fmibextid%3DwwXIfr"><img
+              src="img/facebook.png" alt="face"></a>
+          <p>Piropo Planos de saúde</p>
+        </div>
+      </div>
+      <div class="links">
+        <h1>Links personalizados</h1><br>
+        <a id="inicio" href="index.html">Início</a><br>
+        <a id="planos-link" href="./#plan">Planos</a><br>
+        <a id="contato-link" href="contato.html">Contato</a><br>
+        <a id="sobre-link" href="./#piropo">Sobre</a>
+      </div>
+      <div class="contato">
+        <h1>Atendimento</h1>
+        <div class="telefone">
+          <img src="img/chamada-telefonica.png" alt="contato">
+          <p>(11)96728-2343</p><br>
+          <img src="img/chamada-telefonica.png" alt="contato">
+          <p>(11)95859-4338</p>
+        </div>
+        <div class="email">
+          <img src="img/o-email.png" alt="email">
+          <p>contatopiropoplanosdesaude@gmail.com </p>
+        </div>
+        <div class="horarios">
+          <img src="img/relogio.png" alt="horarios">
+          <p>Segunda à sexta - 8h às 18h</p>
+        </div>
+
+      </div>
+      <div class="direitos">
+        <h4>© 2024 Piropo Planos de saúde. Todos os direitos reservados.</h4><br>
+        <p>CNPJ: 61.159.561/0001-22</p>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
